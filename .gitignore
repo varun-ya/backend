@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# dotenv
+.env
+
+# OS metadata
+.DS_Store
+
+# Build artifacts
+dist/
+build/

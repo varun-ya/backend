@@ -1,0 +1,25 @@
+{
+  "name": "payload-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "payload build",
+    "start": "node server.js",
+    "generate:types": "payload generate:types"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "^3.39.1",
+    "@payloadcms/richtext-lexical": "^3.39.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "payload": "^3.39.1",
+    "pg": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
